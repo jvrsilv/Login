@@ -1,0 +1,8 @@
+.appHome {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../../assets/mountain.svg') center bottom repeat-x, url('../../assets/stars.svg') repeat-x, rgb(11, 10, 13);
+}

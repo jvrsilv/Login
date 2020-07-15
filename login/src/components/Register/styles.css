@@ -1,0 +1,94 @@
+.container-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+    height: 50vh;  
+    width: 456px;    
+    color: #fff;
+    margin: auto;
+}
+
+.container-register strong{
+    color: white;
+    font-size: 24px;
+    margin: 0px auto 32px;
+}
+
+.container-register form{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.container-register form div{
+    position: relative;
+}
+
+.container-register form div svg{
+    left: 17px;
+    top: 18px;
+    position: absolute;  
+    font-size: 16px;
+    transition: color 0.2s ease 0s;
+    color: rgb(51,48,64);
+}
+.container-register form div input:focus + svg{
+    color: rgb(113, 89, 193);
+}
+.container-register form div input:focus::placeholder{
+    color: transparent;
+}
+.container-register form div input{
+    width: 360px;
+    background-color: rgb(25, 24, 31);
+    margin-bottom: 10px;
+     border: 2px solid rgb(40, 39, 44);
+    border-radius: 5px;
+    height: 50px;
+    font-size: 15px;
+    padding: 15px 21px;
+    padding-left: 42px;
+    color: #fff; 
+    transition: border 0.5s ease 0s;
+}
+.container-register form div input:focus{
+   border-color: rgb(113, 89, 193);      
+}
+
+.container-register form button{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    background: rgb(113, 89, 193);
+    border-radius: 5px;  
+    border: initial;
+    transition: background 0.2s ease 0s, color 0.2s ease 0s;
+    width: 100%;
+    cursor: pointer;
+    max-width: 360px;   
+}
+.container-register form button:disabled{
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+#txtRegister{   
+    text-align: justify;    
+    max-width: 360px;
+    color: rgb(113, 89, 193);
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+#btnVoltar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    width: 100px;   
+    color: black;
+    height: 40px;
+}
